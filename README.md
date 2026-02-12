@@ -133,4 +133,4 @@ Este proyecto integra:
 - Arquitectura en la nube
 - Inteligencia de negocio
 
-Simulando un flujo real de analítica empresarial end-to-end.
+Simulando un flujo real de analítica empresarial end-to-end
