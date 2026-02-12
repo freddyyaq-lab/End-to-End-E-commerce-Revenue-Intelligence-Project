@@ -8,7 +8,7 @@ El proyecto simula un flujo real de analítica empresarial: desde datos crudos a
 
 ## Flujo del Proyecto
 
-![FLujo de trabajo](../Images/flujo_proyecto.png)
+![FLujo de trabajo](./Images/flujo_proyecto.png)
 
 ---
 
