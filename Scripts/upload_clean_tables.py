@@ -19,9 +19,11 @@ data_path = os.path.join(script_dir, '..', 'Data', 'Transformed data')
 df_orders = pd.read_csv(os.path.join(data_path, "orders.csv"))
 df_items = pd.read_csv(os.path.join(data_path, "order_items.csv"))
 df_payments = pd.read_csv(os.path.join(data_path, "order_payments.csv"))
+df_geolocation = pd.read_csv(os.path.join(data_path, "geolocation.csv"))
 
 df_orders.to_sql("transformed_orders", engine, if_exists="replace", index=False)
 df_items.to_sql("transformed_order_items", engine, if_exists="replace", index=False)
 df_payments.to_sql("transformed_order_payments", engine, if_exists="replace", index=False)
+df_geolocation.to_sql("transformed_geolocation", engine, if_exists="replace", index=False)
 
 print("Se cargaron todas las tablas")
